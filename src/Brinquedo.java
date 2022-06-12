@@ -24,4 +24,9 @@ public class Brinquedo {
             return false;
         }
     }
+    public double precoVenda(double precoCompra){
+        return estoque.getPrecoCompra() + (precoCompra * 0.5);
+        }
+
+    }
 }

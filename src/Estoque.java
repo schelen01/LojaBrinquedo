@@ -15,7 +15,6 @@ public class Estoque {
     }
     public int saidaEstoque(int valor){
         return this.quantidade -= valor;
-
     }
     //cria os getters
     public int getQuantidade(){
@@ -23,7 +22,7 @@ public class Estoque {
 
     }
 
-    public double getPrecoCompra() {
+    public double getPrecoCompra(){
         return this.precoCompra;
     }
 }
