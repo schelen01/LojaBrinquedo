@@ -7,9 +7,8 @@ public class Tabuleiro extends Brinquedo {
     }
 
     @Override
-    public double getPrecoCompra(){
-        return super.getPrecoCompra() + (getPrecoCompra() * 0.5);
+    public double getPrecoVenda(){
+        return super.getPrecoCompra() + (getPrecoCompra() * 0.3);
     }
-
 
 }

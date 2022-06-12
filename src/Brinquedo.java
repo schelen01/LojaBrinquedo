@@ -33,6 +33,10 @@ public class Brinquedo {
         return getPrecoCompra();
     }
 
+    protected double getPrecoVenda(){
+        return getPrecoVenda();
+    }
+
     public Estoque getEstoque() {
         return this.estoque;
     }
