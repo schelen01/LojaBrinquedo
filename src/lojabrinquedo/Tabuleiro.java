@@ -10,8 +10,9 @@ public class Tabuleiro extends Brinquedo {
     //implementa a lógica da margem.. é abstract? Pegar preço da compra e margem
 
     @Override
-    public double getPrecoCompra() {
-        return super.getPrecoCompra() + (getPrecoCompra() * 0.5);
+    public double getPrecoRevenda(double precoCompra) {
+        return super.getPrecoCompra() + (super.getPrecoCompra() * 0.5);
+
     }
 }
 

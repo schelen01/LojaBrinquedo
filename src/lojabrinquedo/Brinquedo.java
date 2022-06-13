@@ -30,7 +30,11 @@ public class Brinquedo {
 
     // Acrescentei o get
     public double getPrecoCompra() {
-        return getPrecoCompra();
+        return this.estoque.getPrecoCompra();
+    }
+
+    public double getPrecoRevenda(double precoCompra) {
+        return this.estoque.getPrecoCompra() + (this.getPrecoCompra() * 0.5);
     }
 
     public String getNome() {
@@ -47,6 +51,7 @@ public class Brinquedo {
     public String getMarca() {
         return marca;
     }
+
 }
 
 
